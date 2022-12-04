@@ -17,7 +17,7 @@ def main():
 
     domen = "http://memesmix.net"
     print(headers["user-agent"])
-    for x in range(1, 34295):
+    for x in range(1, 2):
         uri = "/images/popular/alltime"
         # print(uri + " " + str(datetime.datetime.now()))
         try:
