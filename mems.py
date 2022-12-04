@@ -43,7 +43,7 @@ def main():
             logging.error(f"Проблеммы с requests на странице с мемами - {e}")
     try:
         with open("memes.json", "w", encoding="utf-8") as f:
-            json.dump(memes_list, f, indent=4)
+            json.dump(memes_list, f, indent=4, ensure_ascii=False)
     except Exception as ee:
         logging.error(f"Проблеммы с записью в файл - {ee}")
 
