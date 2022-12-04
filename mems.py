@@ -17,11 +17,10 @@ def main():
 
     domen = "http://memesmix.net"
     print(headers["user-agent"])
-    for x in range(1, 2):
+    for x in range(1, 34295):
         uri = "/images/popular/alltime"
         # print(uri + " " + str(datetime.datetime.now()))
         try:
-            print(domen + uri)
             res = requests.get(domen + uri, headers=headers)
             # print(res.text)
             if res.status_code == 200:
@@ -44,6 +43,7 @@ def main():
     try:
         with open("memes.json", "w", encoding="utf-8") as f:
             json.dump(memes_list, f, indent=4, ensure_ascii=False)
+        logging.info(f"В итоговом файле {len(memes_list)} записей")
     except Exception as ee:
         logging.error(f"Проблеммы с записью в файл - {ee}")
 
