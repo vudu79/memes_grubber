@@ -2,3 +2,7 @@ requests==2.28.0
 bs4==0.0.1
 beautifulsoup4==4.11.1
 psutil==5.9.4
+
+
+
+https://bugaga.ru/interesting/page,2,1146784533-japonskij-hudozhnik-prevraschaet-kultovye-internet-memy-s-zhivotnymi-v-skulptury.html
