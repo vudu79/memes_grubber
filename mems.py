@@ -121,6 +121,6 @@ def main():
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO, filename="memes_log.log", filemode="w",
+    logging.basicConfig(level=logging.INFO, filename="memes_buguga_log.log", filemode="w",
                         format="%(asctime)s %(levelname)s %(message)s")
     main()
