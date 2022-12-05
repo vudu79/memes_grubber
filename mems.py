@@ -17,7 +17,7 @@ def main():
     }
     domen = "https://bugaga.ru"
     print(headers["user-agent"])
-    for x in range(1, 2):
+    for x in range(1, 29):
         uri = f"/tags/%D0%BC%D0%B5%D0%BC%D1%8B/page/{x}"
         # print(uri + " " + str(datetime.datetime.now()))
         try:
